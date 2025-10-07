@@ -18,7 +18,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install      # <-- change from npm ci to npm install
 
       - name: Run tests
         run: npm test
